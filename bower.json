@@ -1,0 +1,17 @@
+{
+  "name": "supersized-slideshow",
+  "homepage": "https://github.com/fernandogonzalez/supersized-slideshow",
+  "authors": [
+    "Fernando Gonzalez"
+  ],
+  "description": "Full screen background slideshow plugin for jQuery",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
