@@ -53,7 +53,11 @@
 				markerContent,
 				thumbMarkers = '',
 				thumbImage;
-				
+
+			if(base.options.classnames) {
+				base.$el.addClass(base.options.classnames);
+			}
+		
 			while(thisSlide <= base.options.slides.length-1){
 				//Determine slide link content
 				switch(base.options.slide_links){
